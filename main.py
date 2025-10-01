@@ -13,3 +13,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+from ejercicio2.ejercicio2 import ejercicio2
+
+if __name__ == "__main__":
+    ejercicio2()
+
+from ejercicio3.ejercicio3 import ejercicio3
+
+if __name__ == "__main__":
+    ejercicio3()
+

@@ -24,3 +24,7 @@ from ejercicio3.ejercicio3 import ejercicio3
 if __name__ == "__main__":
     ejercicio3()
 
+from ejercicio4.ejercicio4 import ejercicio4
+
+if __name__ == "__main__":
+    ejercicio4()

@@ -28,3 +28,25 @@ from ejercicio4.ejercicio4 import ejercicio4
 
 if __name__ == "__main__":
     ejercicio4()
+
+
+from ejercicio5.circulo import Circulo
+from ejercicio5.rectangulo import Rectangulo
+from ejercicio5.cuadrado import Cuadrado
+from ejercicio5.elipse import Elipse
+
+def main():
+    # Crear objetos
+    c = Circulo("gris", 10)
+    r = Rectangulo(12, 6, "naranja")
+    q = Cuadrado(8, "azul")
+    e = Elipse(14, 7, "amarillo")
+
+    # Mostrar información
+    print(c)
+    print(r)
+    print(q)
+    print(e)
+
+if __name__ == "__main__":
+    main()
